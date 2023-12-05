@@ -1,0 +1,35 @@
+{
+    "name": "home_check",
+    "short_name": "home_check",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "Revolutionizes property management by seamlessly connecting managers, maintenance staff, and homeowners through a single intuitive platform. With real-time updates, GPS check-ins, photo and video uploads, and instant communication, this app simplifies task delegation and tracking, ensuring that home improvement jobs are completed efficiently and to the highest standard. Whether it's routine lawn care or extensive cleaning, "Home Check" ensures that property upkeep is never more than a click away.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

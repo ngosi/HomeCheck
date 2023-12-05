@@ -1,0 +1,35 @@
+name: home_check
+description: Revolutionizes property management by seamlessly connecting managers, maintenance staff, and homeowners through a single intuitive platform. With real-time updates, GPS check-ins, photo and video uploads, and instant communication, this app simplifies task delegation and tracking, ensuring that home improvement jobs are completed efficiently and to the highest standard. Whether it's routine lawn care or extensive cleaning, "Home Check" ensures that property upkeep is never more than a click away.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: 'Inter'
+      fonts:
+        - asset: 'assets/fonts/Inter-Black.ttf'
+        - asset: 'assets/fonts/Inter-Bold.ttf'
+        - asset: 'assets/fonts/Inter-ExtraBold.ttf'
+        - asset: 'assets/fonts/Inter-ExtraLight.ttf'
+        - asset: 'assets/fonts/Inter-Medium.ttf'
+        - asset: 'assets/fonts/Inter-Regular.ttf'
+        - asset: 'assets/fonts/Inter-SemiBold.ttf'
+        - asset: 'assets/fonts/Inter-Thin.ttf'
